@@ -1,0 +1,96 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    padding: 50px 100px 0 100px;
+    
+}
+
+/* top-banner design */
+.top-banner{
+    background-color: #161616;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    border-radius: 30px;
+    padding: 0 50px;
+}
+
+.banner-text{
+    width: 500px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+}
+
+.banner-text h1{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.banner-text p{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.banner-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #DD0000;
+    padding: 16px 25px;
+    border-radius: 5px;
+}
+
+.banner-btn i{
+    padding-left: 6px;
+}
+
+/* button-animation */
+.banner-btn:hover{
+    background-color:chocolate;
+}
+
+.banner-img img{
+    width: 450px;
+    padding-right: 50px;  
+    padding-top: 32px;   
+}
+
+/* Blog Section Style */
+.blog-container{
+    margin: 100px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu{
+    height: 312px;
+    width: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+
+.nav-btn{
+    width: 252px;
+    height: 64px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.select-btn{
+    background-color:#DD0000;
+}
