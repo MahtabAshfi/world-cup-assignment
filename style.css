@@ -178,3 +178,47 @@ hr{
 .footer-icons a{
     color: white;
 }
+
+.match-container{
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.matches{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.match{
+    width: 272px;
+    height: 160px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 30px 15px;
+}
+
+.team{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.match-info{
+    padding: 10px 15px;
+}
+
+.match-info h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.match-date{
+    text-align: center;
+    font-size: 14px;
+
+}
