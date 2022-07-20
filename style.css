@@ -146,3 +146,35 @@ main{
     margin-bottom: 10px;
 }
 
+footer{
+    background-color: #161616;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+}
+
+footer h2{
+    font-size: 40px;
+}
+
+hr{
+    width: 80%;
+}
+
+.footer-items, .footer-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-items p{
+    margin: 20px;
+}
+
+.footer-icons p{
+    font-size: 30px;
+    padding: 20px 30px;
+}
+
+.footer-icons a{
+    color: white;
+}
