@@ -110,7 +110,39 @@ main{
 }
 
 .blog{
-    width: 280px;
+    width: 305px;
     height: 360px;
     border: 1px solid #dbdbdb;
+    border-radius: 10px;
 }
+
+.blog img{
+    width: 100%;
+}
+
+.blog-info{
+    padding: 15px;
+}
+
+.blog-btn{
+    width: 100px;
+    height: 32px;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.blog-btn a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #161616;
+    font-weight: 500;
+}
+
+.blog-info h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
